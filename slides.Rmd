@@ -1,8 +1,8 @@
 ---
-title: "Presentation title"
-subtitle: "Presentation subtitle"
-author: 'Name <br> Organisation <br>'
-date: "Date <br><br> Slides: url to slides"
+title: "Reproducible <br> Analytical Pipelines <br> in NHS Scotland"
+subtitle: "Transforming Publishing Programme"
+author: 'Jack Hannah <br> Information Services Division <br>'
+date: "28 May 2019 <br><br> Slides: https://github.com/jackhannah95/rap-champions/"
 output:
   ioslides_presentation:
     css: my-theme.css
@@ -11,52 +11,43 @@ output:
 ```{r setup, include = FALSE}
 # Load packages required
 library(knitr)
-library(magrittr)
 library(kableExtra)
 
 knitr::opts_chunk$set(echo = FALSE)
 
-# Create data frame for table
-table_contents <- data.frame(c("Text", "Text",
-                               "Text", "Text",
-                               "Text"),
-                             c(1:5))
 ```
 
-## Slide title
+## RAP Rollout
 
-- Bullet point
-- Bullet point with *italic text*
-- Bullet point with **bold text**
+- The [Transforming Publishing](https://www.isdscotland.org/Products-and-Services/Transforming-Publishing-Programme/) (TPP) team have begun to roll out RAP to other 
+teams in ISD using a buddy system
 
-## Slide title
+- One or two members of TPP 'buddy up' with another team to help them create a 
+Reproducible Analytical Pipeline for their publication
 
-```{r out.width = "70%", fig.align = 'center'}
-include_graphics("images/value.png")
-```
+- The bulk of the development work is done by the team being 'buddied'; TPP's 
+role is to provide code reviews; offer assistance with R and Git when required; 
+advise on timelines; and, more generally, offer guidance wherever it is required
 
-## This slide has two columns 
-<!-- It seems easier to do with htmltags than with other ways --> 
-<div style="float: left; width: 50%; text-align: left">
-* Bullet point
-* Bullet point with *italic text*
-* Bullet point with **bold text**
-</div>
+- As a minimum, we recommend teams aim for level 4 (a or b or both) as 
+laid out in our [RAP paper](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf)
 
-<div style="float: right; width: 50%;">
-```{r out.width = "100%", fig.align = 'right'}
-hist(rnorm(100))
-```
-</div>
 
-## Slide title
+## Before the buddying
 
-[ISD homepage](http://www.isdscotland.org/)
+- Prior to working on RAP, analysts in ISD must go on an introductory Tidyverse 
+training course (run by [Jumping Rivers](https://www.jumpingrivers.com/)) and 
+attend a tutorial on using Git and GitHub (run internally by TPP)
 
-## Slide title
+- Following this, we ask them to complete an [R Skills survey](https://www.nsssurvey2.scot.nhs.uk/index.php?r=survey/index/sid/296986/lang/en) 
+and a [short exercise](https://github.com/NHS-NSS-transforming-publications/R-exercise) 
+to assess their competence with R
 
-```{r, echo = FALSE}
-    kable(table_contents,
-          col.names = c("Column heading", "Column heading"),
-          format = "markdown")
-```
+- We also ask them to look at our [Toolkit](https://github.com/NHS-NSS-transforming-publications/Toolkit), which 
+contains links to our disparate resources on R, RMarkdown, version control, 
+RAP, shiny and more
+
+
+## Buddying in action
+
+- The first publication to undergo the buddy system is the [Scottish Bowel Screening Programme Statistics](https://www.isdscotland.org/Health-Topics/Cancer/Publications/2018-08-07/2018-08-07-Bowel-Screening-Publication-Report.pdf?8727663756) (SBSS)
