@@ -1,5 +1,5 @@
 ---
-title: "Reproducible <br> Analytical Pipelines <br> in NHS Scotland"
+title: "Scaling RAP <br> in NHS Scotland"
 subtitle: "Transforming Publishing Programme"
 author: 'Jack Hannah <br> Information Services Division <br>'
 date: "28 May 2019 <br><br> Slides: https://github.com/jackhannah95/rap-champions/"
