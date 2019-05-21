@@ -44,8 +44,8 @@ and a [short exercise](https://github.com/NHS-NSS-transforming-publications/R-ex
 to assess their competence with R
 
 - We also ask them to look at our [Toolkit](https://github.com/NHS-NSS-transforming-publications/Toolkit), which 
-contains links to our disparate resources on R, RMarkdown, version control, 
-RAP, shiny and more
+contains links to our  resources on R, RMarkdown, version control, RAP, shiny 
+and more
 
 
 ## Buddying in action
