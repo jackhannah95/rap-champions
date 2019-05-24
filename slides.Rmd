@@ -62,3 +62,14 @@ associated timelines for doing so, which they update fortnightly
 - Since the beginning of April, they've converted most of the back end of the 
 publication from SPSS to a version controlled, peer reviewed R project held in a  
 (currently private) GitHub repository
+
+
+## Questions/Discussion
+
+How are you approaching scaling RAP in your organisation?
+<br>
+<br>
+<br>
+How do you feel about trying to spread RAP in your organisation? Do you enjoy 
+supporting others, or would you prefer to focus on your own development 
+work?
