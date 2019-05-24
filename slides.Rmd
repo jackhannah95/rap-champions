@@ -62,9 +62,3 @@ publication from SPSS to a version controlled, peer reviewed R project held in a
 ## Questions/Discussion
 
 How are you approaching scaling RAP in your organisation?
-<br>
-<br>
-<br>
-How do you feel about trying to spread RAP in your organisation? Do you enjoy 
-supporting others, or would you prefer to focus on your own development 
-work?
