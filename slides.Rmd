@@ -51,3 +51,14 @@ and more
 ## Buddying in action
 
 - The first publication to undergo the buddy system is the [Scottish Bowel Screening Programme Statistics](https://www.isdscotland.org/Health-Topics/Cancer/Publications/2018-08-07/2018-08-07-Bowel-Screening-Publication-Report.pdf?8727663756) (SBSS)
+
+- At the beginning of the process, the two analysts responsible for the 
+publication created a document detailing the sections of their publication 
+report which required to be automated
+
+- They also created a plan detailing the scripts they required to write and the 
+associated timelines for doing so, which they update fortnightly
+
+- Since the beginning of April, they've converted most of the back end of the 
+publication from SPSS to a version controlled, peer reviewed R project held in a  
+(currently private) GitHub repository
