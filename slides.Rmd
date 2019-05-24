@@ -9,12 +9,7 @@ output:
 ---
 
 ```{r setup, include = FALSE}
-# Load packages required
-library(knitr)
-library(kableExtra)
-
 knitr::opts_chunk$set(echo = FALSE)
-
 ```
 
 ## RAP Rollout
